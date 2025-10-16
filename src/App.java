@@ -1,13 +1,11 @@
 public class App {
         public static void main(String[] args) throws Exception {
-        Car myCar = new Car(120, "Red", "Model S", "Tesla", 2020);
+        Chiled1 s1 = new Chiled1("Omar", 20, "Computer Science");
+        Chiled2 s2 = new Chiled2("Ali", 22, 3.5f);
+        s2.displayInfo();
 
-        System.out.println(myCar); 
-
-        myCar.start();
-
-        myCar.setSpeed(150);
-        System.out.println("New speed: " + myCar.getSpeed());
-
+        System.out.println("--------------------");
+        s1.displayInfo(); 
     }
-}
+    }
+
